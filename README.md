@@ -71,5 +71,4 @@ C is the most sensitive to the workload: its only overhead is per output tile (r
 
 **Strongest argument against it:** B is 1.9× better on cells × depth (960,992 vs 1,822,314) and has almost half the cells, so under an area-first priority B is the right design. Also, C's advantage is the 4 cycles per Mul it hides, which only matters if the requester issues one request per cycle. In Part 2 a real in-order CPU may not (§12), which would shrink C's cycle gain over B while its area cost stays.
 
-# ACA-Mini-Project
 
