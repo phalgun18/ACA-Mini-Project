@@ -1,0 +1,21 @@
+ACA MINI-PROJECT — DESIGN B MEASUREMENTS
+Architecture: K-serial, 16 multipliers
+
+Workload W1
+Requests: 40960
+Cycles: 57345
+Stalls: 16385
+Errors: 0
+
+Workload W2
+Requests: 299008
+Cycles: 430081
+Stalls: 131073
+Errors: 0
+
+Hardware measurements
+Cells: 16288
+Logic depth: 59
+Area x delay: 960992
+
+

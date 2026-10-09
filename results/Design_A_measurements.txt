@@ -1,0 +1,21 @@
+ACA MINI-PROJECT — DESIGN A MEASUREMENTS
+Architecture: Fully parallel
+
+Workload W1
+Requests: 40960
+Cycles: 40961
+Stalls: 1
+Errors: 0
+
+Workload W2
+Requests: 299008
+Cycles: 299009
+Stalls: 1
+Errors: 0
+
+Hardware measurements
+Cells: 113160
+Logic depth: 71
+Area x delay: 8034360
+
+

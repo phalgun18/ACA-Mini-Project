@@ -1,0 +1,20 @@
+ACA MINI-PROJECT — DESIGN C MEASUREMENTS
+Architecture: K-serial with double buffering
+
+Workload W1
+Requests: 40960
+Cycles: 41729
+Stalls: 769
+Errors: 0
+
+Workload W2
+Requests: 299008
+Cycles: 299777
+Stalls: 769
+Errors: 0
+
+Hardware measurements
+Cells: 29874
+Logic depth: 61
+Area x delay: 1822314
+
