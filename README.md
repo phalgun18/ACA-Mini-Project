@@ -1,3 +1,4 @@
+
 # Mini-Project Part 1: The Matrix-Multiply Unit
 
 **CS2.501 Advanced Computer Architecture · Monsoon 2026 · IIIT Hyderabad**
@@ -69,3 +70,6 @@ C is the most sensitive to the workload: its only overhead is per output tile (r
 **Chosen: Design C**, under the priority *minimum time to finish the job (cycles × logic depth) at moderate area*. C is best on that measure on both workloads (18.29 M vs 21.23 M for A on W2, 14% lower; 25.37 M for B), while being 3.8× smaller than A. It wins even though A has fewer cycles, because its depth is 10 levels lower.
 
 **Strongest argument against it:** B is 1.9× better on cells × depth (960,992 vs 1,822,314) and has almost half the cells, so under an area-first priority B is the right design. Also, C's advantage is the 4 cycles per Mul it hides, which only matters if the requester issues one request per cycle. In Part 2 a real in-order CPU may not (§12), which would shrink C's cycle gain over B while its area cost stays.
+
+# ACA-Mini-Project
+
